@@ -4,9 +4,9 @@ import { Link, useNavigate } from 'react-router-dom'
 const SIDEBAR_ITEMS = [
   { icon: '📊', label: 'Dashboard', path: '/dashboard' },
   { icon: '📤', label: 'Upload Report', path: '/upload', active: true },
-  { icon: '🌿', label: 'ESG Report', path: '/dashboard' },
-  { icon: '⚖️', label: 'OJK Status', path: '/dashboard' },
-  { icon: '🔔', label: 'Notifications', path: '/dashboard' },
+  { icon: '🌿', label: 'ESG Report', path: '/esg-report' },
+  { icon: '⚖️', label: 'OJK Status', path: '/ojk-status' },
+  { icon: '🔔', label: 'Notifications', path: '/notifications' },
   { icon: '📄', label: 'SDG Reports', path: '/result' },
 ]
 

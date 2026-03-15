@@ -4,6 +4,9 @@ import LoginPage from './pages/LoginPage'
 import Dashboard from './pages/Dashboard'
 import UploadPage from './pages/UploadPage'
 import ResultPage from './pages/ResultPage'
+import ESGReportPage from './pages/ESGReportPage'
+import OJKStatusPage from './pages/OJKStatusPage'
+import NotificationsPage from './pages/NotificationsPage'
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/upload" element={<UploadPage />} />
         <Route path="/result" element={<ResultPage />} />
+        <Route path="/esg-report" element={<ESGReportPage />} />
+        <Route path="/ojk-status" element={<OJKStatusPage />} />
+        <Route path="/notifications" element={<NotificationsPage />} />
       </Routes>
     </BrowserRouter>
   )

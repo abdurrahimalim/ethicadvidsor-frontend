@@ -4,9 +4,9 @@ import { Link, useNavigate } from 'react-router-dom'
 const NAV_ITEMS = [
   { icon: '📊', label: 'Dashboard', path: '/dashboard', active: true },
   { icon: '📤', label: 'Upload Report', path: '/upload' },
-  { icon: '🌿', label: 'ESG Report', path: '/dashboard' },
-  { icon: '⚖️', label: 'OJK Status', path: '/dashboard' },
-  { icon: '🔔', label: 'Notifications', path: '/dashboard' },
+  { icon: '🌿', label: 'ESG Report', path: '/esg-report' },
+  { icon: '⚖️', label: 'OJK Status', path: '/ojk-status' },
+  { icon: '🔔', label: 'Notifications', path: '/notifications' },
   { icon: '📄', label: 'SDG Reports', path: '/result' },
 ]
 
