@@ -17,9 +17,9 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/upload" element={<UploadPage />} />
         <Route path="/result" element={<ResultPage />} />
-        <Route path="/esg-report" element={<Esgreportpage />} />
-        <Route path="/ojk-status" element={<Ojkstatuspage />} />
-        <Route path="/notifications" element={<Notificationspage />} />
+        <Route path="/esg-report" element={<ESGReportPage />} />
+        <Route path="/ojk-status" element={<OJKStatusPage />} />
+        <Route path="/notifications" element={<NotificationsPage />} />
       </Routes>
     </BrowserRouter>
   )
