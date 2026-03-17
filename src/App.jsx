@@ -4,9 +4,9 @@ import LoginPage from './pages/LoginPage'
 import Dashboard from './pages/Dashboard'
 import UploadPage from './pages/UploadPage'
 import ResultPage from './pages/ResultPage'
-import ESGReportPage from './pages/ESGReportPage'
-import OJKStatusPage from './pages/OJKStatusPage'
-import NotificationsPage from './pages/NotificationsPage'
+import ESGReportPage from './pages/Esgreportpage'
+import OJKStatusPage from './pages/Ojkstatuspage'
+import NotificationsPage from './pages/Notificationspage'
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/upload" element={<UploadPage />} />
         <Route path="/result" element={<ResultPage />} />
-        <Route path="/esg-report" element={<ESGReportPage />} />
-        <Route path="/ojk-status" element={<OJKStatusPage />} />
-        <Route path="/notifications" element={<NotificationsPage />} />
+        <Route path="/esg-report" element={<Esgreportpage />} />
+        <Route path="/ojk-status" element={<Ojkstatuspage />} />
+        <Route path="/notifications" element={<Notificationspage />} />
       </Routes>
     </BrowserRouter>
   )
